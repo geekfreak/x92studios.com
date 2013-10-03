@@ -1,0 +1,417 @@
+/* CSS Document */
+
+body { background:#291f27 /*url("../images_pres/bg.jpg")*/;
+ background-attachment:fixed;
+  color:#000000; 
+  font-family: lucida sans unicode,tahoma,trebuchet ms,lucida grande,arial,helvetica, sans-serif;
+   font-size:11px;
+ }
+ 
+ * {padding:0; margin:0;}
+ 
+ ul{
+margin:0;
+padding: 0 0 0 0;
+}
+
+div#ptitle {
+color:#2b4a5f;
+font-size:16px;
+/*letter-spacing:.045em;*/
+height:10px;
+width:255px;
+padding: 5px 0 3px 0px;
+margin: 5px 10px 0 0px;
+font-family:Geneva, Arial, Helvetica, sans-serif;
+font-weight:normal;
+letter-spacing:-1px;
+}
+
+div#pclient {
+padding: 5px 10px 3px 0px;
+margin: 0px 10px 0 0px;
+color:#2b4a5f;
+height:10px;
+/*border-bottom:1px dotted #49423c;*/
+/*border-left:1px dotted #49423c;*/
+}
+
+.sIFR-hasFlash #ptitle {
+visibility: hidden;
+font-size:16px;
+}
+
+
+li{
+margin:0;
+padding:0;
+}
+
+
+
+/*p {font-size:10px;}*/
+ 
+ 
+div#mainnav {
+	width: 135px;
+	margin-left:30px;
+	/*margin-bottom:10px;*/
+margin-top:30px;
+	/*padding:50px 0 0 0;*/
+letter-spacing:0.025em;
+	float:left;
+	border-bottom:1px solid #ffffff;
+	border-left:1px solid #ffffff;
+	border-right:1px solid #ffffff;
+}
+
+div#mainnav ul {
+color:#CCCCCC;
+/*margin: 50px 0 0 20px;*/
+padding: 3px 5px 0 5px;
+text-align:left;
+letter-spacing:.045em;
+}
+
+div#mainnav li {
+list-style-type:none; 
+line-height:1.35em;
+letter-spacing:.045em;
+/*padding: 0 0 0 0;*/
+/*margin: 0 0 0 0;*/
+}
+
+div#mainnav ul ul {
+padding: 0 0 0 0;
+text-align:left;
+letter-spacing:.025em;
+}
+
+div#mainnav ul ul ul {
+padding: 0 0 0 0;
+text-align:left;
+letter-spacing:.055em;
+}
+
+div#mainnav ul li {
+/*border-left:2px solid #80aa5e;creates dividing lines between the li elements */
+margin: 0 0 0 2px;
+/*padding: 0 0 0 0;*/
+}
+
+div#mainnav ul li ul > li {
+border-left:2px solid #80aa5e; /* creates dividing lines between the li elements */
+margin: 0 0 0 4px;
+/*padding: 0 0 0 0;*/
+}
+
+div#mainnav a {
+text-decoration:none;
+color:#CCCCCC;
+}
+
+div#mainnav ul ul li a {
+padding:0 0 0 4px; /*creates space each side of the mennu items text */
+}
+
+div#mainnav ul ul li ul li {
+/*list-style-type:square;*/ 
+}
+
+div#work {
+   width: 471px;
+   height:600px;
+   float:left;
+   margin-top:30px;
+   margin-left:30px;
+   background:url(../images_pres/work_bg21.gif) no-repeat top right;
+   padding: 10px 0 0 0 ;
+}
+
+div#ptop, div#workimage, div#notes{
+   margin: 0px 0 0 20px;
+}
+
+div#ptop  {
+   clear:both;
+   background:#abd5eb;
+   width: 428px;
+   height: 55px;
+   border-right:1px solid #abdcea;
+   border-left:1px solid #abdcea;
+}
+
+div#workimage {
+   width:428px;
+   background:#f8f7e5;
+   border-right:1px solid #5fc3d9;
+   border-left:1px solid  #5fc3d9;
+}
+
+div#notes {
+	background:#2b4a5f;
+	width: 428px;
+	height:115px;
+	padding: 0px 0 10px 0;
+	color:#ffffff;
+	border-right:1px solid #abdcea;
+	border-left:1px solid #abdcea;
+	border-bottom:1px solid #abdcea;
+}
+
+span.instruct {
+font-size:11px;
+padding:0 0 0 10px;
+color:#80aa5e;
+font-weight:bold;
+}
+
+
+#img1,#img2,#img3,#img4 {
+padding: 0 0 0 4px;
+}
+
+
+div#worknav {
+background:#ffffff;
+width: 428px; 
+padding: 2px 0 2px 0;
+margin: 0 0 0 10px;
+float:left;
+/*border-bottom:1px dotted #49423c;*/
+}
+
+div#worknav img {
+padding: 0 0 0 10px;
+}
+
+/*div#imageset {
+float:left;
+}*/
+
+span.counter {
+vertical-align:25%;
+margin: 0 -6px 0 0;
+color:#49423c;
+/*border:1px solid #80aa5e;*/
+}
+
+
+div#itop {
+clear:both;
+background:#abd5eb;
+width: 428px;
+height:411px;
+margin: 10px 0 0 20px;
+padding: 0 0 0 0;
+border-right:1px solid #abdcea;
+border-left:1px solid #abdcea;
+border-bottom:1px solid #abdcea;
+/*border-top:1px solid #abdcea;*/
+}
+
+div#description {
+width: 280px;
+height:45px;
+padding: 0 0 0 5px;
+float:left;
+}
+
+div#description img {
+padding: 3px 10px 0 0;
+}
+
+#descriptbtn {
+float:left;
+width: 142px;
+}
+
+div#descriptbtn img {
+padding: 5px 0 0 40px;
+}
+
+
+.client {
+padding: 0 0 0 0;
+margin: 0 0 0 0;
+/*background:#ffffff;*/
+/*border-bottom:1px dotted #49423c;*/
+/*border-right:1px dotted #49423c;*/
+}
+
+.blnk {
+padding: 0 0 0 0;
+margin: 0 0 0 0;
+border-right:1px dotted #49423c;
+}
+
+.services {
+padding: 0 0 0 0;
+margin: 0 0 0 0;
+/*background:#ffffff;*/
+/*border-bottom:1px dotted #49423c;*/
+/*border-right:1px dotted #49423c;*/
+}
+
+.servicetext {
+padding: 0 0 0 0;
+margin: 0 20px 0 0;
+}
+
+div#problem {
+padding: 3px 10px 2px 0px;
+margin: 0px 10px 0 10px;
+/*border-bottom:1px dotted #49423c;*/
+/*border-left:1px dotted #49423c;*/
+}
+
+div#solution {
+padding: 3px 10px 2px 0px;
+margin: 0px 10px 0 10px;
+/*border-bottom:1px dotted #49423c;*/
+/*border-left:1px dotted #49423c;*/
+}
+
+span.titlesize {
+  font-size:10px;
+}
+
+.navmenu {
+	display:none;
+}
+
+
+.greenselect {
+color:#80aa5e;
+}
+
+.navmenu li {
+	cursor:pointer;
+	padding-left:5px;
+	
+}
+.navmenu li:hover {
+	cursor:pointer;
+	padding-left:5px;
+	background:#393837;
+	color:#FFFFFF;
+}
+
+.navselect, .secselect {
+	cursor: pointer;
+}
+
+.selected {
+	background:#383736;
+	color:#80aa5e;
+}
+img {
+	border-style:none;
+}
+
+.inotestext {
+padding: 8px 5px 0 3px;
+margin: 0 0 0 5px;
+line-height:1.35em;
+}
+
+.oline {
+position:absolute;
+left:425px;
+top:68px;
+}
+
+div#wline {
+height:5px;
+background:#ffffff;
+clear:both;
+}
+
+.imghover {
+	width:193px;
+	height:120px;
+	opacity: .85;
+	filter: alpha(opacity=85);
+	margin:-1px;
+}
+
+#mainlogo {
+cursor: pointer;
+}
+
+div#fcontainer1 {
+margin-top:20px;
+}
+
+div#fcontainer {
+margin-left:-600px;
+margin-top:20px;
+}
+
+/*span.fbacklink {
+margin-top:20px;
+font-size:11px;
+}*/
+
+span.fbacklink a {
+text-decoration:none;
+font-size:14px;
+color:#FFFFFF;
+letter-spacing:2px;
+}
+
+/* These are standard sIFR styles... do not modify */
+
+.sIFR-flash {
+	visibility: visible !important;
+	margin: 0;
+}
+
+.sIFR-replaced {
+	visibility: visible !important;
+}
+
+span.sIFR-alternate {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 0;
+	display: block;
+	overflow: hidden;
+}
+
+/* Hide Adblock Object tab: the text should show up just fine, not poorly with a tab laid over it. */
+.sIFR-flash + div[adblocktab=true] {
+  display: none !important;
+}
+
+/* These "decoy" styles are used to hide the browser text before it is replaced... the negative-letter spacing in this case is used to make the browser text metrics match up with the sIFR text metrics since the sIFR text in this example is so much narrower... your own settings may vary... any weird sizing issues you may run into are usually fixed by tweaking these decoy styles */
+
+.sIFR-hasFlash h1 {
+	visibility: hidden;
+}
+
+.sIFR-hasFlash h2 {
+	visibility: hidden;
+	letter-spacing: -9px;
+	font-size: 55px;
+}
+
+.sIFR-hasFlash h3 {
+	visibility: hidden;
+	letter-spacing: -6px;
+	font-size: 25px;
+}
+
+.sIFR-hasFlash h4 {
+	visibility: hidden;
+	letter-spacing: -5px;
+	font-size: 21px;
+}
+
+.sIFR-hasFlash h5#pullquote {
+	letter-spacing: -4px;
+	visibility: hidden;
+	font-size: 24px;
+}
